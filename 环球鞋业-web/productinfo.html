@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/productinfo.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/move.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		
+		
+		<div id="topbar">
+			<div class="wraper topbar">
+				<div class="fr topnav">
+					
+					<span class="userpanel fl mr10">
+						<a href="">注册</a><b>|</b>
+						<a href="">登录</a><span id="spWelcome" class="welcome ml10">上午好,欢迎来新蛋购物！</span>
+					</span>
+					<ul class="aside fr" style="*float:left;">
+						<li><a href="">我的订单</a></li>
+						<li id="miniMyNewegg" class="hasub">
+							<a href="" class="oper" >我的新蛋<s></s></a>
+						</li>
+						<li><a href="">帮助中心</a></li>
+						<li class="hasub service">
+							<a href="" class="oper">客户服务<s></s></a>
+							<div class="inner">
+							    <div class="info">
+							        <p class="orange fz14"><strong>400-820-4400</strong></p>
+							        <strong>021-67072999</strong>
+							        <p>每天 9:00 - 18:00</p>
+							    </div>
+							    <div class="connect_way">
+							    <a class="common_btn common_blue_btn" href="" style="float:left;clear:left;margin-right:4px;">
+							    	<span><em class="icon"></em>在线咨询</span>
+							    </a>
+							    <a class="common_btn common_blue_btn" href="" style="float:left;clear:right;">
+							    	<span>邮件我们</span>
+							    </a>
+							    </div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<ul class="aside">
+					<li><a href=""class="phone">掌上新蛋</a></li>
+					<li><a href=""  class="bizGroupBuy">企业团购</a></li>
+				
+				</ul>
+			</div>
+		</div>
+		<div id="header" class="wraper">
+			<div class="wraper header">
+			<a id="logo" href=""  class="inblock logo ie6png">新蛋商城</a>
+			
+			<div id="bannerAdSlogan_2013" class="annouce" style="display:block">
+				<a href="">
+			        <img src=""  class="ie6png" ></a> </div>
+			<div id="bannerAdHeaderTopRight" class="annouce" style="display:none" >
+				<a href="">
+			        <img src="" width="225" class="ie6png" height="86">
+				</a> 
+			</div>
+			
+			<div class="searchbar ie6png">
+			 	<div class="searchinput ie6png">
+			        <input type="text" value="请输入您要搜索的关键字" id="topSearch" autocomplete="off" maxlength="50"class="keyword hasDefaultText">
+			    </div>
+			    <a href="" class="btn_search ie6png inblock" >搜索</a>
+			<div class="autoFilled" id="autofilledview" style="display:none;"></div>
+			<p class="hot">
+			    <a href="">移动硬盘</a><b>|</b>
+			    <a href="">iPhone7</a><b>|</b>
+			    <a href="">mate9</a><b>|</b>
+			    <a href="">Thinkpad</a><b>|</b>
+			    <a href="">行车记录仪</a>
+			</p>
+			</div>
+				<span class="servicetip">
+					<img id="wanlitong" style="display:none" src="" >
+				</span>
+			</div>
+		</div>
+		<div id="menu">
+			<div class="wraper">
+			<a class="ph_menu_tips" href=""> </a>
+			<ul class="nav">
+			    <li><a href="">首页</a></li>
+			    <li><a href="" >限时抢购</a></li>
+			    <li><a href="">团团赚</a></li>
+			    <li><a href="">海外直购</a></li>    
+			    <li><a href="">爱车配</a></li>
+			    <li><a href="">二手宝库</a></li>
+			</ul>      
+			<div class="menu" id="innermenu">
+				<h3 class="ie6png"><a href="">全部商品分类</a></h3>
+			    <div class="menulist ie6png" id="navigationPanel">
+			        
+			    </div>
+			</div>
+			<div class="utility">
+				<dl class="mycart" hover="">
+				    <dt class="opener" id="tit_cart">
+				    	<a id="gotoShoppingcart_a" href="" >购物车
+				    		<strong id="headerCartCount">0</strong>件
+				    		<s></s>
+				    	</a>
+				    </dt>
+				    <dd class="openerC" id="cartContainer"></dd>
+				</dl>
+				<dl class="favor" hover="">
+				    <dt class="opener" id="tit_favor">
+				    	<a href="">收藏提醒<s></s>
+				    		
+				    	</a>
+				    </dt>
+				    <dd class="openerC" id="favorContainer"></dd>
+				</dl>
+				<s class="utl inblock"></s>
+				<s class="utr inblock"></s>
+			</div>
+			</div>
+		</div>
+		<div id="crumb" class="crumb_1213">
+		    <div class="wraper">
+				<div class="inner"> 
+					<a  href="">首页</a>
+					<span> &gt; </span>
+					<a href="">个护清洁</a>
+					<span> &gt; </span>
+					<a href="">按摩器材</a><span> &gt; </span>
+					<a href=""> 凯仕乐</a><span> &gt; </span>
+					<strong>产品编号: A0O-2GD-1NWN01</strong>
+				</div>
+			    <div id="compareArea" class="crumb_compare_goods">
+			        <span class="fl cl767">可以对比5个商品</span>
+			        <dl id="compareBar">
+				        <dt><a href="">马上对比</a></dt>
+				        <dd></dd><dd></dd><dd></dd><dd></dd><dd></dd>
+			        </dl>
+			    </div>
+		    </div>
+		
+		</div>
+		
+		<div id="fixed_Container">
+			<div id="divTabHeader">
+				
+				<div id="TabsHead" class="pro_tabs_com tabHead">
+					<div class="pro_tabs_cnt">
+						<ul>
+							<li class="cur"><a href="">商品详情</a></li>
+							<li><a href="">用户评论</a></li>
+							<li><a href="">具体参数</a></li>
+							<li><a href="">售后服务</a></li>
+							<li><a href="">商品咨询</a></li>
+							
+						</ul>
+						<div class="fr mt10">
+							<label class="egg_input egg_checkbox" id="labSelectToCompare" >
+								<input type="checkbox" id="compare" >
+								<span id="compare_text">
+									将商品加入对比
+								</span>
+							</label>
+						</div>
+					</div>
+				</div>
+				        
+				
+			</div>
+			<div class="pro_reviews_info" id="productSimpleInfo" style="display:none;">
+					<dl>
+						<dt data="img"><img  src="img/product/A0O-2GD-1NW_03_min.jpg"></dt>
+						<dd data="name"><h2>2KASRROW 凯仕乐 KSR-18升级版 颈肩乐 颈部肩部腰部 捶背按摩器 99种模式 20段力度</h2></dd>
+						<dd data="price" class="price">新蛋价
+							<span class="clf76">
+								<em>¥&nbsp;</em>
+								<strong class="fs30">
+									198.00
+								</strong>
+							</span>
+						</dd>
+						<dd data="property"></dd>
+					</dl>
+					<div class="pro_reviews_buy operation">    
+						<a id="addToCart1" class="pro_common_add_btn" href="" >加入购物车</a>
+				
+						<div class="goods_buy_otherbtns">
+							<a class="gray_btn add_btn" id="_addToWishList">加入收藏夹</a>
+						    <div class="gray_btn fav likeButton"   >
+				                <div class="fav_num_wrap">
+				                    <div class="fav_num">
+				                        <p>3</p>
+				                        <p>2</p>
+				                    </div>
+				                </div>
+				                <img class="gif1" style="position: absolute; z-index:10; display:none;">
+				            </div>
+				            
+				            <div class="share_icon">
+								<a href="" class="reviews_share sshare_xl" style="background: url(img/product/icon.jpg)no-repeat 0 0;margin: 5px;"></a>
+								<a href="" class="reviews_share sshare_tx" style="background: url(img/product/icon.jpg)no-repeat -33px 0;margin: 5px;"></a>
+								<a href="" class="less" >V</a>
+								<a href="" class="reviews_share sshare_db"style="background: url(img/product/icon.jpg)no-repeat 0 -29px;margin: 5px;"></a>
+								<a href="" class="reviews_share sshare_kaixin"style="background: url(img/product/icon.jpg)no-repeat -33px -29px;margin: 5px;"></a>
+								<a href="" class="reviews_share sshare_renren" style="background: url(img/product/icon.jpg)no-repeat 0 -58px;margin: 5px;"></a>
+								<a href="" class="reviews_share sshare_taobao" style="background: url(img/product/icon.jpg)no-repeat -33px -58px;margin: 5px;"></a>
+								<a href="" class="reviews_share sshare_xiaoguo"style="background: url(img/product/icon.jpg)no-repeat 0 -87px;margin: 5px;"></a>
+								<a href="" class="reviews_share sshare_digu"style="background: url(img/product/icon.jpg)no-repeat -33px -87px;margin: 5px;"></a>
+						    </div>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+		
+		<div id="TabsHeadFixed_wrap">
+			<div id="TabsHeadFixed" class="ready_fix noboder for_static">
+				    <div class=" pro_tabs_com tabHead pro_tabs_cnt">
+				        <ul>
+							<li class="cur"><a href="">商品详情</a></li>
+							<li><a href="" >用户评论</a></li>
+							<li><a href="" >具体参数</a></li>
+							<li><a href="" >售后服务</a></li>
+							<li><a href="" >商品咨询</a></li>
+							
+				        </ul>
+				        
+				        <div class="fr fix_addCar" id="productSimpleInfo2">            
+				            <div class="fix_detail_wrap">
+					            <div class="fix_goods_detail"style="display: none;">
+					                <dl>
+					                    <dt >
+					                    	<img  src="img/product/A0O-2GD-1NW_03_min.jpg"></dt>
+					                    <dd class="fix_goods_title">KASRROW 凯仕乐 KSR-18升级版 颈肩乐 颈部肩部腰部 捶背按摩器 99种模式 20段力度</dd>
+					                    <dd ></dd>
+					                    <dd >新蛋价
+					                    	<span class="">
+					        
+											<span class="clf76">
+												<em>¥&nbsp;</em>
+												<strong class="fs30">
+													<img src="">
+												</strong>
+											</span>
+					        
+					        				</span>
+					                    </dd>
+					                </dl>
+					            </div>
+				            </div>
+				            <a class="fix_addCar_btn" id="addToCart2"  href="">加入购物车</a>
+				        </div>
+				        
+				    </div>
+				</div>
+				
+		</div>
+		
+		<div id="show_big_div" >
+			<div class="btn_big_close"></div>
+			<div class="btn_big_left"></div>
+			<div class="btn_big_right"></div>
+			
+			<img class="show_big_img"src="img/product/A0O-2GD-1NW_01_big.jpg"/>
+			
+			
+		</div>
+		
+		<div id="infopage">
+			<div class="wraper">
+				<div class="page" >
+					<div class="info_wrap">
+						<div class="info_content">
+							<div class="info_content_left">
+								<div class="show_wrap">
+									<img class="show_img" width="450" height="338" src="img/product/A0O-2GD-1NW_01_big.jpg"/>
+									
+								</div>
+								<div class="scroll_wrap">
+									<ul>
+										<li class="now"><img src="img/product/A0O-2GD-1NW_01_min.jpg"/></li>
+										<li><img src="img/product/A0O-2GD-1NW_02_min.jpg"/></li>
+										<li><img src="img/product/A0O-2GD-1NW_03_min.jpg"/></li>
+										<li><img src="img/product/A0O-2GD-1NW_04_min.jpg"/></li>
+										<li><img src="img/product/A0O-2GD-1NW_05_min.jpg"/></li>
+									</ul>
+								</div>
+								<div class="btn_left btn"></div>
+								<div class="btn_right btn"></div>
+							</div>
+							<div class="info_content_right">
+								<dl>
+									<dt class="title">KASRROW 凯仕乐 KSR-18升级版 颈肩乐 颈部肩部腰部 捶背按摩器 99种模式 20段力度</dt>
+									<dd class="info_buy">
+										<dl>
+											<dt style="height: 25px;line-height: 25px;">品&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;牌：</dt>
+											<dd style="height: 25px;line-height: 25px;">&nbsp;&nbsp;凯仕乐</dd>
+											<dt style="height: 25px;line-height: 25px;">产品型号：</dt>
+											<dd style="height: 25px;line-height: 25px;">&nbsp;&nbsp;KSR-18升级版</dd>
+											<dt style="height: 50px;line-height: 50px;">新&nbsp;蛋 &nbsp;价：</dt>
+											<dd style="height: 50px;line-height: 50px;font-size: 25px;color: rgb(255,102,0);">￥198.00</dd>
+											<dt style="height: 20px;line-height: 20px;">商品支持：</dt>
+											<dd style="height: 20px;line-height: 20px;">&nbsp;&nbsp;不支持无理由退</dd>
+										</dl>
+										<div class="buy_num">
+											<div class="buy_num_div div1">
+												数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量：
+											</div>
+											<div class="buy_num_div div2">
+												<button class="btn_reduce">-</button>
+												<input type="text"  id="buy_num" value="1" />
+												<button class="btn_add">+</button>
+											</div>
+											<div class="buy_num_div div3">
+												库存：有货
+											</div>
+										</div>
+										<div class="buy_btn_wrap">
+											<div class="operation">  
+												<a id="buynow" class="pro_common_add_btn" href="" >立即购买</a>
+												<a id="addToCart3" class="pro_common_add_btn" href="" >加入购物车</a>
+										
+												<div class="goods_buy_otherbtns">
+													<a class="gray_btn add_btn" id="_addToWishList">加入收藏夹</a>
+												    <div class="gray_btn fav likeButton"   >
+										                <div class="fav_num_wrap">
+										                    <div class="fav_num">
+										                        <p>3</p>
+										                        <p>2</p>
+										                    </div>
+										                </div>
+										                <img class="gif1" style="position: absolute; z-index:10; display:none;">
+										            </div>
+										            
+										            <div class="share_icon">
+														<a href="" class="reviews_share sshare_xl" style="background: url(img/product/icon.jpg)no-repeat 0 0;margin: 5px;"></a>
+														<a href="" class="reviews_share sshare_tx" style="background: url(img/product/icon.jpg)no-repeat -33px 0;margin: 5px;"></a>
+														<a href="" class="less" >V</a>
+														<a href="" class="reviews_share sshare_db"style="background: url(img/product/icon.jpg)no-repeat 0 -29px;margin: 5px;"></a>
+														<a href="" class="reviews_share sshare_kaixin"style="background: url(img/product/icon.jpg)no-repeat -33px -29px;margin: 5px;"></a>
+														<a href="" class="reviews_share sshare_renren" style="background: url(img/product/icon.jpg)no-repeat 0 -58px;margin: 5px;"></a>
+														<a href="" class="reviews_share sshare_taobao" style="background: url(img/product/icon.jpg)no-repeat -33px -58px;margin: 5px;"></a>
+														<a href="" class="reviews_share sshare_xiaoguo"style="background: url(img/product/icon.jpg)no-repeat 0 -87px;margin: 5px;"></a>
+														<a href="" class="reviews_share sshare_digu"style="background: url(img/product/icon.jpg)no-repeat -33px -87px;margin: 5px;"></a>
+												    </div>
+												</div>
+											</div>
+										</div>
+									</dd>
+									<dd class="app_dowl">
+										
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="info_img_wrap">
+							<span id=""style="float: right;">
+							如果您发现商品信息不准确，<a href="">欢迎纠错</a>	
+							</span>
+							<h1  class="info_img_title">KASRROW 凯仕乐 KSR-18升级版 颈肩乐 颈部肩部腰部 捶背按摩器</h1>
+							<img src="img/product/productdis_Newegggg.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-01.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-02.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-03.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-04.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-05.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-06.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-07.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-08.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-09.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-10.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-11.gif"/>
+							<img src="img/product/A0O-2GD-1NW-12.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-13.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-14.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-15.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-16.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-17.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-18.gif"/>
+							<img src="img/product/A0O-2GD-1NW-19.gif"/>
+							<img src="img/product/A0O-2GD-1NW-20.gif"/>
+							<img src="img/product/A0O-2GD-1NW-21.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-22.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-23.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-24.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-25.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-26.jpg"/>
+							<img src="img/product/A0O-2GD-1NW-27.jpg"/>
+							
+						</div>
+					</div>
+				</div>
+				<div class="page"style="display: none;">
+					<div class="comment_wrap">
+						
+					</div>
+				</div>
+				<div class="page"style="background: greenyellow;height: 3000px;display: none;">
+					<div class="parameter_wrap">
+						
+					</div>
+				</div>
+				<div class="page"style="background: chocolate;height: 1500px;display: none;">
+					<div class="service_wrap">
+						
+					</div>
+				</div>
+				<div class="page"style="background: firebrick;height: 6000px;display: none;">
+					<div class="consult-wrap">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="footer_wrap">
+			<div class="wraper">
+				<div id="footer">
+					
+				</div>
+			</div>
+		</div>
+	
+	</body>
+	
+	<script src="js/productinfo.js" type="text/javascript" charset="utf-8"></script>
+</html>  
